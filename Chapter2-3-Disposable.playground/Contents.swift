@@ -14,7 +14,7 @@ let subscription1 = Observable.from([1, 2, 3])
         print("Disposed")
     })
 
-subscription1.dispose() // 리소스해제
+//subscription1.dispose() // 리소스해제
 
 var bag = DisposeBag() // dispose보다 DisposeBag 사용을 추천
 
