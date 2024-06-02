@@ -38,6 +38,7 @@
 		82B283AE2C08ED3A00EFB14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82B283B62C08F04D00EFB14C /* Chapter1-HelloRxSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter1-HelloRxSwift.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82D8F5B12C0CE12500BF08B0 /* Chapter4-1-just-of-from.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter4-1-just-of-from.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		82D8F5B22C0CE39200BF08B0 /* Chapter4-2-Range.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter4-2-Range.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AC3FB298FB4EF249556FD8A6 /* Pods_LearnRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -65,6 +66,7 @@
 		82B283942C08ED3800EFB14C = {
 			isa = PBXGroup;
 			children = (
+				82D8F5B22C0CE39200BF08B0 /* Chapter4-2-Range.playground */,
 				82D8F5B12C0CE12500BF08B0 /* Chapter4-1-just-of-from.playground */,
 				825189462C0B94B40092E8C2 /* Chapter3-5-Relay.playground */,
 				825189452C0B93870092E8C2 /* Chapter3-4-AsyncSubject.playground */,
