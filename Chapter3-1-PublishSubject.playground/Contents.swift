@@ -34,3 +34,5 @@ subject.onError(MyError.error) // 모든 구독자에게 전달됨
 
 let o3 = subject.subscribe { print(">> 3", $0) }
 o3.disposed(by: disposeBag)
+
+
