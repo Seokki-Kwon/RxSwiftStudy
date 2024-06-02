@@ -26,7 +26,7 @@ b.onNext(1)
 b.subscribe { print("Behavior Subject2 >>", $0) } // 바로 next 이벤트가 전달됨(내부에 next이벤트가 생성되있음)
     .disposed(by: disposeBag)
 
-//b.onCompleted()
+b.onCompleted()
 //b.onError(MyError.error)
 
 // completed, error 상태만 전달받음
