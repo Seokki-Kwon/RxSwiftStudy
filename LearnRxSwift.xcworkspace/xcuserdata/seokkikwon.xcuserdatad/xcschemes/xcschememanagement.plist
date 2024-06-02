@@ -25,6 +25,27 @@
 			<key>orderHint</key>
 			<integer>27</integer>
 		</dict>
+		<key>Chapter-4-6-empty-error (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
+		<key>Chapter-4-6-empty-error (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>32</integer>
+		</dict>
+		<key>Chapter-4-6-empty-error (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
 		<key>Chapter1-HelloRxSwift (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
