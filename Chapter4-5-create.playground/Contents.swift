@@ -24,5 +24,6 @@ Observable<String>.create { (observer) -> Disposable in
     return Disposables.create()
 }
 .subscribe { print($0) }
+
 .disposed(by: disposeBag)
 
