@@ -410,6 +410,27 @@
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
+		<key>Chapter5-4-skip (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
+		<key>Chapter5-4-skip (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
+		<key>Chapter5-4-skip (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
 		<key>HelloRxSwift (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
