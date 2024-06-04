@@ -34,6 +34,7 @@
 		8291C79F2C0F4F2700C2B0E3 /* Chapter5-4-skip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-4-skip.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8291C7A02C0F536600C2B0E3 /* Chapter5-5-take.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-5-take.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8291C7A22C0F570300C2B0E3 /* Chapter5-6-single.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-6-single.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8291C7A32C0F583100C2B0E3 /* Chapter5-7-distinctUntilChanged.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-7-distinctUntilChanged.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82B2839D2C08ED3800EFB14C /* LearnRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B283A02C08ED3800EFB14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82B283A22C08ED3800EFB14C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 		82B283942C08ED3800EFB14C = {
 			isa = PBXGroup;
 			children = (
+				8291C7A32C0F583100C2B0E3 /* Chapter5-7-distinctUntilChanged.playground */,
 				8291C7A22C0F570300C2B0E3 /* Chapter5-6-single.playground */,
 				8291C7A02C0F536600C2B0E3 /* Chapter5-5-take.playground */,
 				8291C79F2C0F4F2700C2B0E3 /* Chapter5-4-skip.playground */,
