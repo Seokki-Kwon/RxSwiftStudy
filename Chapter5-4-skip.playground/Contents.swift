@@ -36,3 +36,16 @@ subject.onNext(1) // 방출되지 않는다
 trigger.onNext(0) // 방출되지 않는다
 
 subject.onNext(2) // 2가 방출된다
+
+// 지정한 시간동안 이벤트 방출을 무시
+let o = Observable<Int>.interval(.seconds(1), scheduler: MainScheduler.instance)
+
+// duration 무시하는시간
+// scheduler 스케줄러
+o.take(10)
+    .skip(.seconds(3), scheduler: MainScheduler.instance) // 3초당안 무시
+    .subscribe { print($0) }
+    .disposed(by: disposeBag)
+
+// 이론적으로 3부터 방출되야하지만 시간계산에 오차가발생해서 2부터 방출
+// 시간을 파라미터로 받는경우 오차가 발생할 수 있음
