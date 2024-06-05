@@ -21,6 +21,7 @@
 		73DDA1F0943E2F17C9A417F8 /* Pods-LearnRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-LearnRxSwift/Pods-LearnRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		820069172C10D08B009FDA6C /* Chapter6-1-toArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-1-toArray.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		820069182C10D22A009FDA6C /* Chapter6-2-map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-2-map.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		820069192C10D505009FDA6C /* Chapter6-3-compactMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-3-compactMap.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2A82C09A80900535F2B /* Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2A92C09AE4000535F2B /* Chapter2-2-Infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter2-2-Infallible.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2AA2C09B02600535F2B /* Chapter2-3-Disposable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter2-3-Disposable.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -80,6 +81,7 @@
 		82B283942C08ED3800EFB14C = {
 			isa = PBXGroup;
 			children = (
+				820069192C10D505009FDA6C /* Chapter6-3-compactMap.playground */,
 				820069182C10D22A009FDA6C /* Chapter6-2-map.playground */,
 				820069172C10D08B009FDA6C /* Chapter6-1-toArray.playground */,
 				8291C7A42C0F5E4D00C2B0E3 /* Chapter5-8-debounce-throttle.playground */,
