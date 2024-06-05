@@ -599,6 +599,27 @@
 			<key>orderHint</key>
 			<integer>35</integer>
 		</dict>
+		<key>Chapter6-4-flatMap (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>39</integer>
+		</dict>
+		<key>Chapter6-4-flatMap (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
+		<key>Chapter6-4-flatMap (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>38</integer>
+		</dict>
 		<key>HelloRxSwift (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
