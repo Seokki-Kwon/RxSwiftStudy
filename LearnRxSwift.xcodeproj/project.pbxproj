@@ -35,6 +35,7 @@
 		825189452C0B93870092E8C2 /* Chapter3-4-AsyncSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter3-4-AsyncSubject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		825189462C0B94B40092E8C2 /* Chapter3-5-Relay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter3-5-Relay.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8255698F2C1154AC00C75E80 /* Chapter6-8-scan.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-8-scan.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		825569902C1155FB00C75E80 /* Chapter6-9-buffer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-9-buffer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82812CE22C0E2F6D0006E108 /* Chapter5-1-IgnoreElements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-1-IgnoreElements.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82812CE32C0E30E00006E108 /* Chapter5-2-elementAt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-2-elementAt.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8291C79E2C0F4E6A00C2B0E3 /* Chapter5-3-filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-3-filter.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -86,6 +87,7 @@
 		82B283942C08ED3800EFB14C = {
 			isa = PBXGroup;
 			children = (
+				825569902C1155FB00C75E80 /* Chapter6-9-buffer.playground */,
 				8255698F2C1154AC00C75E80 /* Chapter6-8-scan.playground */,
 				82F760E82C10DE430033F50B /* Chapter6-7-concatMap.playground */,
 				8200691C2C10DA96009FDA6C /* Chapter6-6-flatMapLatest.playground */,

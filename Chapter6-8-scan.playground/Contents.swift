@@ -9,7 +9,7 @@ import RxSwift
 
 let disposeBag = DisposeBag()
 
-// 중간값이 필요한경우 사용한다. 
+// 중간값이 필요한경우 사용한다.
 Observable.range(start: 1, count: 10)
 //    .scan(0, accumulator: +)
     .subscribe { print($0) }
