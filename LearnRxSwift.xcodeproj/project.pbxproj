@@ -25,6 +25,8 @@
 		8200691A2C10D665009FDA6C /* Chapter6-4-flatMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-4-flatMap.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8200691B2C10D8D3009FDA6C /* Chapter6-5-flatMapFirst.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-5-flatMapFirst.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8200691C2C10DA96009FDA6C /* Chapter6-6-flatMapLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-6-flatMapLatest.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		820AE6992C14CAEC00A8C505 /* Chapter7-2-concat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-2-concat.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		822B9A502C137C1000C3B8FB /* Chapter7-1-startWith.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-1-startWith.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2A82C09A80900535F2B /* Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2A92C09AE4000535F2B /* Chapter2-2-Infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter2-2-Infallible.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2AA2C09B02600535F2B /* Chapter2-3-Disposable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter2-3-Disposable.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -37,6 +39,7 @@
 		8255698F2C1154AC00C75E80 /* Chapter6-8-scan.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-8-scan.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		825569902C1155FB00C75E80 /* Chapter6-9-buffer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-9-buffer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		825569912C11579100C75E80 /* Chapter6-10-window.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-10-window.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		825569922C115BF400C75E80 /* Chapter6-10-groupBy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-10-groupBy.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82812CE22C0E2F6D0006E108 /* Chapter5-1-IgnoreElements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-1-IgnoreElements.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82812CE32C0E30E00006E108 /* Chapter5-2-elementAt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-2-elementAt.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8291C79E2C0F4E6A00C2B0E3 /* Chapter5-3-filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-3-filter.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -88,6 +91,9 @@
 		82B283942C08ED3800EFB14C = {
 			isa = PBXGroup;
 			children = (
+				820AE6992C14CAEC00A8C505 /* Chapter7-2-concat.playground */,
+				822B9A502C137C1000C3B8FB /* Chapter7-1-startWith.playground */,
+				825569922C115BF400C75E80 /* Chapter6-10-groupBy.playground */,
 				825569912C11579100C75E80 /* Chapter6-10-window.playground */,
 				825569902C1155FB00C75E80 /* Chapter6-9-buffer.playground */,
 				8255698F2C1154AC00C75E80 /* Chapter6-8-scan.playground */,
