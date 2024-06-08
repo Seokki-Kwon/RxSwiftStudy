@@ -26,6 +26,7 @@
 		8200691B2C10D8D3009FDA6C /* Chapter6-5-flatMapFirst.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-5-flatMapFirst.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8200691C2C10DA96009FDA6C /* Chapter6-6-flatMapLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-6-flatMapLatest.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		820AE6992C14CAEC00A8C505 /* Chapter7-2-concat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-2-concat.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		820AE69A2C14CD6E00A8C505 /* Chapter7-3-merge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-3-merge.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		822B9A502C137C1000C3B8FB /* Chapter7-1-startWith.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-1-startWith.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2A82C09A80900535F2B /* Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2A92C09AE4000535F2B /* Chapter2-2-Infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter2-2-Infallible.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -91,6 +92,7 @@
 		82B283942C08ED3800EFB14C = {
 			isa = PBXGroup;
 			children = (
+				820AE69A2C14CD6E00A8C505 /* Chapter7-3-merge.playground */,
 				820AE6992C14CAEC00A8C505 /* Chapter7-2-concat.playground */,
 				822B9A502C137C1000C3B8FB /* Chapter7-1-startWith.playground */,
 				825569922C115BF400C75E80 /* Chapter6-10-groupBy.playground */,
