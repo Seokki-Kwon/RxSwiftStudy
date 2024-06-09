@@ -893,6 +893,27 @@
 			<key>orderHint</key>
 			<integer>47</integer>
 		</dict>
+		<key>Chapter7-7-sample (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>51</integer>
+		</dict>
+		<key>Chapter7-7-sample (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>52</integer>
+		</dict>
+		<key>Chapter7-7-sample (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>50</integer>
+		</dict>
 		<key>HelloRxSwift (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
