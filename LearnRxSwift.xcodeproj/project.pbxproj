@@ -38,6 +38,7 @@
 		824BED802C15F825009DF342 /* Chapter7-7-sample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-7-sample.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824BED812C15F952009DF342 /* Chapter7-8-switchLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-8-switchLatest.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824BED822C15FB14009DF342 /* Chapter7-9-reduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-9-reduce.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		824BED832C160058009DF342 /* Chapter8-1-amb.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter8-1-amb.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		825189422C0B8BF80092E8C2 /* Chapter3-1-PublishSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter3-1-PublishSubject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		825189432C0B8FB00092E8C2 /* Chapter3-2-BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter3-2-BehaviorSubject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		825189442C0B91C60092E8C2 /* Chapter3-3-ReplaySubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter3-3-ReplaySubject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -98,6 +99,7 @@
 		82B283942C08ED3800EFB14C = {
 			isa = PBXGroup;
 			children = (
+				824BED832C160058009DF342 /* Chapter8-1-amb.playground */,
 				824BED822C15FB14009DF342 /* Chapter7-9-reduce.playground */,
 				824BED812C15F952009DF342 /* Chapter7-8-switchLatest.playground */,
 				824BED802C15F825009DF342 /* Chapter7-7-sample.playground */,
