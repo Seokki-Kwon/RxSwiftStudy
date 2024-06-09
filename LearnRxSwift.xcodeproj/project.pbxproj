@@ -33,6 +33,7 @@
 		824AB2A92C09AE4000535F2B /* Chapter2-2-Infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter2-2-Infallible.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2AA2C09B02600535F2B /* Chapter2-3-Disposable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter2-3-Disposable.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2AB2C09B31E00535F2B /* Chapter2-4-Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter2-4-Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		824BED7E2C15F41E009DF342 /* Chapter7-5-zipOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-5-zipOperator.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		825189422C0B8BF80092E8C2 /* Chapter3-1-PublishSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter3-1-PublishSubject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		825189432C0B8FB00092E8C2 /* Chapter3-2-BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter3-2-BehaviorSubject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		825189442C0B91C60092E8C2 /* Chapter3-3-ReplaySubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter3-3-ReplaySubject.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -93,6 +94,7 @@
 		82B283942C08ED3800EFB14C = {
 			isa = PBXGroup;
 			children = (
+				824BED7E2C15F41E009DF342 /* Chapter7-5-zipOperator.playground */,
 				820AE69B2C14CFEE00A8C505 /* Chapter7-4-combineLatest.playground */,
 				820AE69A2C14CD6E00A8C505 /* Chapter7-3-merge.playground */,
 				820AE6992C14CAEC00A8C505 /* Chapter7-2-concat.playground */,
