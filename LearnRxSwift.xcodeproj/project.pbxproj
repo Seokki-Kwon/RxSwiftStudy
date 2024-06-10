@@ -29,6 +29,7 @@
 		820AE69A2C14CD6E00A8C505 /* Chapter7-3-merge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-3-merge.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		820AE69B2C14CFEE00A8C505 /* Chapter7-4-combineLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-4-combineLatest.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		822B9A502C137C1000C3B8FB /* Chapter7-1-startWith.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-1-startWith.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8237D5432C1709E600221D02 /* ErrorHandling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ErrorHandling.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2A82C09A80900535F2B /* Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2A92C09AE4000535F2B /* Chapter2-2-Infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter2-2-Infallible.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2AA2C09B02600535F2B /* Chapter2-3-Disposable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter2-3-Disposable.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -100,6 +101,7 @@
 		82B283942C08ED3800EFB14C = {
 			isa = PBXGroup;
 			children = (
+				8237D5432C1709E600221D02 /* ErrorHandling.playground */,
 				824BED842C16026C009DF342 /* Scheduler.playground */,
 				824BED832C160058009DF342 /* Chapter8-1-amb.playground */,
 				824BED822C15FB14009DF342 /* Chapter7-9-reduce.playground */,
