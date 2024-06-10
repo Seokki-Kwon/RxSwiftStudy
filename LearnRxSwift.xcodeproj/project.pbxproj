@@ -98,7 +98,7 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		82B283942C08ED3800EFB14C = {
+		8219129D2C1751EC00AA79A2 /* RxSwiftBasic */ = {
 			isa = PBXGroup;
 			children = (
 				8237D5432C1709E600221D02 /* ErrorHandling.playground */,
@@ -148,6 +148,14 @@
 				824AB2A92C09AE4000535F2B /* Chapter2-2-Infallible.playground */,
 				824AB2A82C09A80900535F2B /* Observable.playground */,
 				82B283B62C08F04D00EFB14C /* Chapter1-HelloRxSwift.playground */,
+			);
+			path = RxSwiftBasic;
+			sourceTree = "<group>";
+		};
+		82B283942C08ED3800EFB14C = {
+			isa = PBXGroup;
+			children = (
+				8219129D2C1751EC00AA79A2 /* RxSwiftBasic */,
 				82B2839F2C08ED3800EFB14C /* LearnRxSwift */,
 				82B2839E2C08ED3800EFB14C /* Products */,
 				44098111C502041D94BEB0FA /* Pods */,
