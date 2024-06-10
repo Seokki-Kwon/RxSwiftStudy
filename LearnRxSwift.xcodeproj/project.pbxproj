@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		821912A02C1754CF00AA79A2 /* HelloRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8219129F2C1754CF00AA79A2 /* HelloRxCocoaViewController.swift */; };
 		82B283A12C08ED3800EFB14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B283A02C08ED3800EFB14C /* AppDelegate.swift */; };
 		82B283A32C08ED3800EFB14C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B283A22C08ED3800EFB14C /* SceneDelegate.swift */; };
 		82B283A52C08ED3800EFB14C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B283A42C08ED3800EFB14C /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 		820AE6992C14CAEC00A8C505 /* Chapter7-2-concat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-2-concat.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		820AE69A2C14CD6E00A8C505 /* Chapter7-3-merge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-3-merge.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		820AE69B2C14CFEE00A8C505 /* Chapter7-4-combineLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-4-combineLatest.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8219129F2C1754CF00AA79A2 /* HelloRxCocoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRxCocoaViewController.swift; sourceTree = "<group>"; };
 		822B9A502C137C1000C3B8FB /* Chapter7-1-startWith.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-1-startWith.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8237D5432C1709E600221D02 /* ErrorHandling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ErrorHandling.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2A82C09A80900535F2B /* Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -152,9 +154,18 @@
 			path = RxSwiftBasic;
 			sourceTree = "<group>";
 		};
+		8219129E2C17549E00AA79A2 /* RxCocoaBasic */ = {
+			isa = PBXGroup;
+			children = (
+				8219129F2C1754CF00AA79A2 /* HelloRxCocoaViewController.swift */,
+			);
+			path = RxCocoaBasic;
+			sourceTree = "<group>";
+		};
 		82B283942C08ED3800EFB14C = {
 			isa = PBXGroup;
 			children = (
+				8219129E2C17549E00AA79A2 /* RxCocoaBasic */,
 				8219129D2C1751EC00AA79A2 /* RxSwiftBasic */,
 				82B2839F2C08ED3800EFB14C /* LearnRxSwift */,
 				82B2839E2C08ED3800EFB14C /* Products */,
@@ -310,6 +321,7 @@
 			files = (
 				82B283A52C08ED3800EFB14C /* ViewController.swift in Sources */,
 				82B283A12C08ED3800EFB14C /* AppDelegate.swift in Sources */,
+				821912A02C1754CF00AA79A2 /* HelloRxCocoaViewController.swift in Sources */,
 				82B283A32C08ED3800EFB14C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
