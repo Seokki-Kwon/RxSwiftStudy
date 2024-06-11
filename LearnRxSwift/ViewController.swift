@@ -14,7 +14,8 @@ struct Chapter {
 class ViewController: UIViewController {
     let myClass = [
         Chapter(title: "Rxcocoa-01-Hello RxCocoa", screen: HelloRxCocoaViewController()),
-        Chapter(title: "Rxcocoa-02-Binding", screen: RxBindingViewController())
+        Chapter(title: "Rxcocoa-02-Binding", screen: RxBindingViewController()),
+        Chapter(title: "Rxcocoa-03-ControlProperty", screen: RxControlPropertyViewController()),
     ]
     
     private lazy var tableView: UITableView = {
