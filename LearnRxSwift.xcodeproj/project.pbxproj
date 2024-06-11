@@ -10,6 +10,7 @@
 		8201AA532C18129D0030A664 /* RxBindingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8201AA522C18129D0030A664 /* RxBindingViewController.swift */; };
 		8201AA552C181C7F0030A664 /* RxControlPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8201AA542C181C7F0030A664 /* RxControlPropertyViewController.swift */; };
 		821912A02C1754CF00AA79A2 /* HelloRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8219129F2C1754CF00AA79A2 /* HelloRxCocoaViewController.swift */; };
+		824B63472C182F4100E1E5A4 /* RxDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B63462C182F4100E1E5A4 /* RxDriverViewController.swift */; };
 		82B283A12C08ED3800EFB14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B283A02C08ED3800EFB14C /* AppDelegate.swift */; };
 		82B283A32C08ED3800EFB14C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B283A22C08ED3800EFB14C /* SceneDelegate.swift */; };
 		82B283A52C08ED3800EFB14C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B283A42C08ED3800EFB14C /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 		824AB2A92C09AE4000535F2B /* Chapter2-2-Infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter2-2-Infallible.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2AA2C09B02600535F2B /* Chapter2-3-Disposable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter2-3-Disposable.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824AB2AB2C09B31E00535F2B /* Chapter2-4-Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter2-4-Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		824B63462C182F4100E1E5A4 /* RxDriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDriverViewController.swift; sourceTree = "<group>"; };
 		824BED7E2C15F41E009DF342 /* Chapter7-5-zipOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-5-zipOperator.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824BED7F2C15F62B009DF342 /* Chapter7-6-withLatestFrom.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-6-withLatestFrom.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		824BED802C15F825009DF342 /* Chapter7-7-sample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter7-7-sample.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -164,6 +166,7 @@
 				8219129F2C1754CF00AA79A2 /* HelloRxCocoaViewController.swift */,
 				8201AA522C18129D0030A664 /* RxBindingViewController.swift */,
 				8201AA542C181C7F0030A664 /* RxControlPropertyViewController.swift */,
+				824B63462C182F4100E1E5A4 /* RxDriverViewController.swift */,
 			);
 			path = RxCocoaBasic;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824B63472C182F4100E1E5A4 /* RxDriverViewController.swift in Sources */,
 				82B283A52C08ED3800EFB14C /* ViewController.swift in Sources */,
 				82B283A12C08ED3800EFB14C /* AppDelegate.swift in Sources */,
 				821912A02C1754CF00AA79A2 /* HelloRxCocoaViewController.swift in Sources */,
