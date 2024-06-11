@@ -67,26 +67,25 @@ class RxDriverViewController: UIViewController {
 //            .share() // 같은 시퀀스를 공유하도록
         
         // driver 사용
-//        let result = textField.rx.text.asDriver()
-//            .flatMapLatest {
-//                self.validateText($0)
-//                    .asDriver(onErrorJustReturn: false)
-//            }
-//            
-//        
-//        result
-//            .map { $0 ? "OK" : "Error"}
-//            .drive(resultLabel.rx.text)
-//            .disposed(by: bag)
-//        
-//        result
-//            .map { $0 ? UIColor.blue : UIColor.red}
-//            .drive(resultLabel.rx.backgroundColor)
-//            .disposed(by: bag)
-//        
-//        result
-//            .drive(sendBtn.rx.isEnabled)
-//            .disposed(by: bag)
+        let result = textField.rx.text.asDriver()
+            .flatMapLatest {
+                self.validateText($0)
+                    .asDriver(onErrorJustReturn: false)
+            }
+            
+        result
+            .map { $0 ? "OK" : "Error"}
+            .drive(resultLabel.rx.text)
+            .disposed(by: bag)
+        
+        result
+            .map { $0 ? UIColor.blue : UIColor.red}
+            .drive(resultLabel.rx.backgroundColor)
+            .disposed(by: bag)
+        
+        result
+            .drive(sendBtn.rx.isEnabled)
+            .disposed(by: bag)
         
     }
     

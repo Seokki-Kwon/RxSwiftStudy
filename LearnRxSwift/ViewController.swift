@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         Chapter(title: "Rxcocoa-02-Binding", screen: RxBindingViewController()),
         Chapter(title: "Rxcocoa-03-ControlProperty", screen: RxControlPropertyViewController()),
         Chapter(title: "Rxcocoa-04-Driver", screen: RxDriverViewController()),
+        Chapter(title: "Rxcocoa-05-TableView", screen: RxCocoaTableViewViewController()),
     ]
     
     private lazy var tableView: UITableView = {
