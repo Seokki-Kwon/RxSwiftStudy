@@ -15,7 +15,6 @@ class HelloRxCocoaViewController: UIViewController {
     private var valueLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Hello"
         return label
     }()
     
@@ -49,3 +48,6 @@ class HelloRxCocoaViewController: UIViewController {
 }
 
 
+class Test: NSObject {
+    
+}
