@@ -4,8 +4,9 @@
 target 'LearnRxSwift' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+   project 'RxMemo_Workspace/RxMemo.xcodeproj'
    pod 'RxSwift'
     pod 'RxCocoa'
   # Pods for LearnRxSwift
-
 end
+

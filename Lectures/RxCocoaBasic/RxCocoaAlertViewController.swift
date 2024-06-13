@@ -96,6 +96,7 @@ enum ActionType {
     case ok
     case cancle
 }
+
 extension UIViewController {
     // Observable<ActionType>을 리턴하는 함수구현
     func info(title: String, message: String? = nil) -> Observable<ActionType> {
@@ -110,6 +111,7 @@ extension UIViewController {
             alert.addAction(okAction)
             
             self?.present(alert, animated: true, completion: nil)
+            
             return Disposables.create {
                 alert.dismiss(animated: true, completion: nil)
             }
