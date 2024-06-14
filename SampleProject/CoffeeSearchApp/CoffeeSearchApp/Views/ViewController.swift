@@ -40,17 +40,15 @@ class ViewController: UIViewController {
             }
             .disposed(by: bag)
                    
-        viewModel.wishlistSubject
-            .map { $0.map { $0.price }.reduce(0, +)}
-            .scan(0) { $0 + $1 }
+        viewModel.wishlistRelay
+            .map { $0.map {$0.price}.reduce(0, +)}
             .map { String(format: "%.2f", $0) }
             .map { "\($0) $"}
             .bind(to: priceLabel.rx.text)
             .disposed(by: bag)
         
-        viewModel.wishlistSubject
+        viewModel.wishlistRelay
             .map { $0.count }
-            .scan(0, accumulator: +)
             .map { "\($0) 개 선택됨" }
             .bind(to: productCount.rx.text)
             .disposed(by: bag)
