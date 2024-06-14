@@ -8,9 +8,12 @@
 import Foundation
 import RxSwift
 
+
+
 class CoffeeListViewModel {
     let bag = DisposeBag()
     let coffeeSubject = BehaviorSubject<[Coffee]>(value: [])
+    let wishlistSubject = BehaviorSubject<[Coffee]>(value: [])
     
     init() {
         APIService.fetchAllCoffee()
@@ -22,4 +25,7 @@ class CoffeeListViewModel {
             .disposed(by: bag)
     }
     
+    func addWishlist(_ item: Coffee) {        
+        wishlistSubject.onNext([item])
+    }
 }

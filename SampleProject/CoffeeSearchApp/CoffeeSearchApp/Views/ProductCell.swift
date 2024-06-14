@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import RxCocoa
+import RxSwift
 
 class ProductCell: UITableViewCell {
     static let identifier = "ProductCell"
@@ -14,6 +16,14 @@ class ProductCell: UITableViewCell {
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var addButton: UIButton!
+    var bag = DisposeBag()
+    private var addButtonTapSubject = PublishSubject<Coffee>()
+    public var item: Coffee?
+    
+    var addButtonTap: Observable<Coffee> {
+        return addButtonTapSubject.asObserver()
+    }
+    
     public var imageUrl: String? {
         didSet {
             productImage.load(url: URL(string: imageUrl ?? "")!)
@@ -21,11 +31,20 @@ class ProductCell: UITableViewCell {
     }
     
     override func awakeFromNib() {
-        super.awakeFromNib()        
+        super.awakeFromNib()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-
+    
+    @IBAction func addButtonTap(_ sender: Any) {
+        guard let item = item else { return }
+        self.addButtonTapSubject.onNext(item)
+    }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        bag = DisposeBag()
+    }
 }
