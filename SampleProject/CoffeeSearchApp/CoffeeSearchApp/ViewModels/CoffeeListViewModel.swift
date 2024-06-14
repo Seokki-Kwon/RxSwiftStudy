@@ -7,13 +7,12 @@
 
 import Foundation
 import RxSwift
-
-
+import RxCocoa
 
 class CoffeeListViewModel {
     let bag = DisposeBag()
     let coffeeSubject = BehaviorSubject<[Coffee]>(value: [])
-    let wishlistSubject = BehaviorSubject<[Coffee]>(value: [])
+    let wishlistRelay = BehaviorRelay<[Coffee]>(value: [])
     
     init() {
         APIService.fetchAllCoffee()
@@ -26,6 +25,6 @@ class CoffeeListViewModel {
     }
     
     func addWishlist(_ item: Coffee) {        
-        wishlistSubject.onNext([item])
+        wishlistRelay.accept(wishlistRelay.value + [item])
     }
 }
