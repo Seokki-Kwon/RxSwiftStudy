@@ -13,26 +13,22 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var productCount: UILabel!
+    private let viewModel = CoffeeListViewModel()
+    private let bag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        tableView.dataSource = self        
-        tableView.register(ProductCell.self, forCellReuseIdentifier: ProductCell.identifier)
+        tableView.dataSource = nil
+        tableView.rowHeight = 140
         
+        viewModel.coffeeSubject
+            .bind(to: tableView.rx.items(cellIdentifier: ProductCell.identifier, cellType: ProductCell.self)) {index, item, cell in
+                cell.titleLabel.text = item.name
+                cell.priceLabel.text = "\(item.price) $"
+                cell.descriptionLabel.text = item.description
+                cell.imageUrl = item.image_url
+            }
+            .disposed(by: bag)
     }
 }
 
-extension ViewController: UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: ProductCell.identifier, for: indexPath) as? ProductCell else {            
-            return UITableViewCell()
-        }
-        
-        return cell
-    }
-}
