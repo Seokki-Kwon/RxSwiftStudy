@@ -27,4 +27,8 @@ class CoffeeListViewModel {
     func addWishlist(_ item: Coffee) {        
         wishlistRelay.accept(wishlistRelay.value + [item])
     }
+    
+    func removeProduct() {
+        wishlistRelay.accept([])
+    }
 }
