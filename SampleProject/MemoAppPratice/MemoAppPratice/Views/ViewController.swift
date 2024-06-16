@@ -10,13 +10,12 @@ import RxSwift
 import RxCocoa
 
 class ViewController: UIViewController {
-    @IBOutlet weak var memoTableView: UITableView!
+    @IBOutlet weak var memoTableView: UITableView!    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
 
 }
 
