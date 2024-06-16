@@ -6,9 +6,13 @@
 //
 
 import UIKit
+import RxSwift
 
 class MemoTableViewCell: UITableViewCell {
     static let reuseIdentifier = "MemoCell"
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var contentLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
