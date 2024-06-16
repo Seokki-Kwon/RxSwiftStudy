@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var productCount: UILabel!
+    @IBOutlet weak var removeButton: UIBarButtonItem!
     
     private let viewModel = CoffeeListViewModel()
     private let bag = DisposeBag()
@@ -34,12 +35,12 @@ class ViewController: UIViewController {
                     .subscribe { item in
                         guard let item = item.element else { return }
                         self?.viewModel.addWishlist(item)
-                        print(item.name, "선택됨")
                     }
                     .disposed(by: cell.bag)
             }
             .disposed(by: bag)
-                   
+                
+        
         viewModel.wishlistRelay
             .map { $0.map {$0.price}.reduce(0, +)}
             .map { String(format: "%.2f", $0) }
@@ -51,6 +52,12 @@ class ViewController: UIViewController {
             .map { $0.count }
             .map { "\($0) 개 선택됨" }
             .bind(to: productCount.rx.text)
+            .disposed(by: bag)
+        
+        removeButton.rx.tap
+            .subscribe { [weak self] _ in
+                self?.viewModel.removeProduct()
+            }
             .disposed(by: bag)
     }
 }

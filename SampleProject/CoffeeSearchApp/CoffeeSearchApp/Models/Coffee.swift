@@ -24,3 +24,5 @@ struct Coffee: Decodable {
     let grind_option: [String]
     let image_url: String
 }
+
+
