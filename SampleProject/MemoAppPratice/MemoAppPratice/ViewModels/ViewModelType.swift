@@ -7,6 +7,7 @@
 
 import Foundation
 
+// ViewModel이 상속하는 클래스
 class ViewModelType {
     let storage: MemoStorageType
     

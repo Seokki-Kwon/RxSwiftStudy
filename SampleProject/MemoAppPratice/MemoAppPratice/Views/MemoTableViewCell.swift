@@ -12,6 +12,7 @@ class MemoTableViewCell: UITableViewCell {
     static let reuseIdentifier = "MemoCell"
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var contentLabel: UILabel!
+    @IBOutlet weak var memoView: UIView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
