@@ -9,6 +9,7 @@ import Foundation
 import RxSwift
 
 protocol MemoStorageType {
+    @discardableResult
     func updateMemo(memo: Memo) -> Observable<Memo>
     func deleteMemo(memo: Memo) -> Observable<Void>
     func getAllMemo() -> Observable<[Memo]>

@@ -176,14 +176,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PX3-HP-WdG">
-                                <rect key="frame" x="10.000000000000004" y="69" width="46.333333333333343" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zyj-ys-NOh">
-                                <rect key="frame" x="10" y="119" width="373" height="689"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zyj-ys-NOh">
+                                <rect key="frame" x="10" y="113.66666666666669" width="373" height="694.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -196,21 +190,35 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MzI-zn-6d4">
+                                <rect key="frame" x="273.66666666666669" y="68.666666666666671" width="109.33333333333331" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="pencil" catalog="system" title="메모 수정"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sen-cL-O67">
+                                <rect key="frame" x="10" y="69" width="233.66666666666666" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3WW-LB-lu6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="3WW-LB-lu6" firstAttribute="trailing" secondItem="zyj-ys-NOh" secondAttribute="trailing" constant="10" id="2oj-Bc-qNz"/>
-                            <constraint firstItem="PX3-HP-WdG" firstAttribute="top" secondItem="3WW-LB-lu6" secondAttribute="top" constant="10" id="8Co-Cs-jbh"/>
+                            <constraint firstItem="3WW-LB-lu6" firstAttribute="trailing" secondItem="MzI-zn-6d4" secondAttribute="trailing" constant="10" id="77m-h3-dal"/>
                             <constraint firstItem="zyj-ys-NOh" firstAttribute="leading" secondItem="3WW-LB-lu6" secondAttribute="leading" constant="10" id="B0z-p5-QZx"/>
                             <constraint firstItem="3WW-LB-lu6" firstAttribute="bottom" secondItem="zyj-ys-NOh" secondAttribute="bottom" constant="10" id="KLD-GL-xuV"/>
-                            <constraint firstItem="PX3-HP-WdG" firstAttribute="leading" secondItem="3WW-LB-lu6" secondAttribute="leading" constant="10" id="bvm-xW-P93"/>
-                            <constraint firstItem="zyj-ys-NOh" firstAttribute="top" secondItem="PX3-HP-WdG" secondAttribute="bottom" constant="20" id="uyv-Fq-7ng"/>
+                            <constraint firstItem="Sen-cL-O67" firstAttribute="leading" secondItem="3WW-LB-lu6" secondAttribute="leading" constant="10" id="N9z-Qu-8XT"/>
+                            <constraint firstItem="zyj-ys-NOh" firstAttribute="top" secondItem="MzI-zn-6d4" secondAttribute="bottom" constant="10" id="SIF-gD-ycW"/>
+                            <constraint firstItem="MzI-zn-6d4" firstAttribute="leading" secondItem="Sen-cL-O67" secondAttribute="trailing" constant="30" id="VuZ-FA-S4c"/>
+                            <constraint firstItem="MzI-zn-6d4" firstAttribute="centerY" secondItem="Sen-cL-O67" secondAttribute="centerY" id="iWx-Gn-JcB"/>
+                            <constraint firstItem="Sen-cL-O67" firstAttribute="top" secondItem="3WW-LB-lu6" secondAttribute="top" constant="10" id="nvX-c7-ydd"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="contentLabel" destination="zyj-ys-NOh" id="DlN-Id-tE7"/>
-                        <outlet property="titleLabel" destination="PX3-HP-WdG" id="wCH-5q-Evd"/>
+                        <outlet property="editButton" destination="MzI-zn-6d4" id="ohr-xT-j72"/>
+                        <outlet property="titleTextField" destination="Sen-cL-O67" id="fyb-AH-8yP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LA8-J4-JrH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -237,6 +245,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="pencil" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
