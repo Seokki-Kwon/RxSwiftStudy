@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import UIKit
 
 struct Memo {
     let id: Int
     var title: String
-    var content: String
+    var content: String    
 }

@@ -9,6 +9,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
+// 메모데이터 관련
 class MemoStorage: MemoStorageType {
     private var memoList: [Memo] = [
         Memo(id: 0, title: "테스트메모1", content: "내용"),
