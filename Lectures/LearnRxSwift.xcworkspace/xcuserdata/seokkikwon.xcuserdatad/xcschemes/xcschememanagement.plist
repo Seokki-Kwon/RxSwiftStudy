@@ -95,6 +95,27 @@
 			<key>orderHint</key>
 			<integer>54</integer>
 		</dict>
+		<key>Chapter10-2-multicast (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>58</integer>
+		</dict>
+		<key>Chapter10-2-multicast (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>59</integer>
+		</dict>
+		<key>Chapter10-2-multicast (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>57</integer>
+		</dict>
 		<key>Chapter2-2-Infallible (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
