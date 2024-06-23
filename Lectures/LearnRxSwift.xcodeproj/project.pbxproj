@@ -93,6 +93,7 @@
 		82D8F5B62C0CE9CD00BF08B0 /* Chapter4-6-empty-error.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter4-6-empty-error.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82F760E82C10DE430033F50B /* Chapter6-7-concatMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter6-7-concatMap.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82FC07CF2C288AE4002E5C82 /* Chapter10-1-SharingSubscription.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter10-1-SharingSubscription.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		82FC07D02C288D68002E5C82 /* Chapter10-2-multicast.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter10-2-multicast.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AC3FB298FB4EF249556FD8A6 /* Pods_LearnRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -170,6 +171,7 @@
 				824B634A2C18427000E1E5A4 /* ObservablePratice.playground */,
 				824B634B2C18428800E1E5A4 /* SubjectPratice.playground */,
 				82FC07CF2C288AE4002E5C82 /* Chapter10-1-SharingSubscription.playground */,
+				82FC07D02C288D68002E5C82 /* Chapter10-2-multicast.playground */,
 			);
 			path = RxSwiftBasic;
 			sourceTree = "<group>";
