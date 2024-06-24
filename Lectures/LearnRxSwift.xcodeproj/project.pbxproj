@@ -68,6 +68,7 @@
 		82812CE22C0E2F6D0006E108 /* Chapter5-1-IgnoreElements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-1-IgnoreElements.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		82812CE32C0E30E00006E108 /* Chapter5-2-elementAt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-2-elementAt.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8285B5642C29239300180AF4 /* Chapter10-3-publish.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter10-3-publish.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8285B5652C2924A100180AF4 /* Chapter10-4-replay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter10-4-replay.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8291C79E2C0F4E6A00C2B0E3 /* Chapter5-3-filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-3-filter.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8291C79F2C0F4F2700C2B0E3 /* Chapter5-4-skip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-4-skip.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8291C7A02C0F536600C2B0E3 /* Chapter5-5-take.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter5-5-take.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -174,6 +175,7 @@
 				82FC07CF2C288AE4002E5C82 /* Chapter10-1-SharingSubscription.playground */,
 				82FC07D02C288D68002E5C82 /* Chapter10-2-multicast.playground */,
 				8285B5642C29239300180AF4 /* Chapter10-3-publish.playground */,
+				8285B5652C2924A100180AF4 /* Chapter10-4-replay.playground */,
 			);
 			path = RxSwiftBasic;
 			sourceTree = "<group>";
