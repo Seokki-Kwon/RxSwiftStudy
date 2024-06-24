@@ -158,6 +158,27 @@
 			<key>orderHint</key>
 			<integer>59</integer>
 		</dict>
+		<key>Chapter10-5-refCount (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>63</integer>
+		</dict>
+		<key>Chapter10-5-refCount (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>64</integer>
+		</dict>
+		<key>Chapter10-5-refCount (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>62</integer>
+		</dict>
 		<key>Chapter2-2-Infallible (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
