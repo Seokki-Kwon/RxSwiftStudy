@@ -21,10 +21,10 @@
 ## Subject
 
 ## Operator
-
+- [take, takeWhile, takeUntil](https://boatneck-beard-7fa.notion.site/take-998c6837f79f48588992eac4d2ec86da?pvs=4)
 ## Scheduler
 
 ## RxCocoa
 - [Binder](https://boatneck-beard-7fa.notion.site/Binding-5a328c75d75546fcb1fda3b1ff6f4620?pvs=4)
-
+- [Reactive Extension](https://boatneck-beard-7fa.notion.site/Reactive-Extension-1fc47c5e60eb4b71886764c20a6c14bf?pvs=4)
 ## Pratical Example
