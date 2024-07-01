@@ -22,6 +22,7 @@
 
 ## Operator
 - [take, takeWhile, takeUntil](https://boatneck-beard-7fa.notion.site/take-998c6837f79f48588992eac4d2ec86da?pvs=4)
+- [combineLatest, zip](https://boatneck-beard-7fa.notion.site/combineLatest-zip-903b4d930e01444d92312e3c484376d7?pvs=4)
 ## Scheduler
 
 ## RxCocoa
